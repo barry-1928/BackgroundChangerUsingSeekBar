@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.first_task.MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="#eff925"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar1"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button2"
+        android:textSize="20sp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:background="#eff925"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/seekbar2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="B"/>
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button3"
+        android:background="#eff925"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar3"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(R,G,B)"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_marginBottom="120dp"
+        android:id="@+id/textbox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="(0,0,0)"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:background="#adb24a"/>
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/reset"
+        android:textSize="20sp"
+        android:background="#9ba304"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:onClick="reset"
+        />
+
+</LinearLayout>
+</ScrollView>
